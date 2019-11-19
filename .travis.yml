@@ -12,3 +12,8 @@ branches:
 
 before_script:
 - npm install 
+
+deploy:
+    provider: heroku
+    api_key: $HEROKU_KEY
+    app: murmuring-wave-07637
